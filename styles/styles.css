@@ -69,16 +69,30 @@ body {
 
 
 /* MEDIA QUERIES */
-@media only screen and (max-width: 600px){
+@media all and (min-width: 600px){
   #images {
     grid-template-columns: 1fr; 
+    gap: 5px;
   } 
 
   #images img {
-    width: 75%;
+    width: 80%;
   }
 
   body {
-    font-size: 1.25em;
+    font-size: 1em;
+  }
+}
+
+@media all and (min-width: 768px){
+  body {
+    font-size: 1.10em;
+  }
+  #images {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #images img {
+    width: 85%;
   }
 }
