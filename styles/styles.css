@@ -69,6 +69,14 @@ li a:hover {
   padding: 1em;
 }
 
+.about-main > p {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+  font-size: 1.25em;
+  letter-spacing: 1px;
+  font-weight: 500;
+  
+}
+
 /* IMAGES section */
 #images {
   grid-area: images;
