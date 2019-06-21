@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="shortcut icon" type="image/x-icon" href="camera.ico">
+  <link rel="shortcut icon" type="image/x-icon" href="../camera.ico">
   <link rel="stylesheet" href="/styles/styles.css">
   <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Expanded:500&display=swap" rel="stylesheet">
   <title>Photo Viewer Project</title>
@@ -27,14 +27,50 @@
     </nav>
     <!-- MAIN -->
     <main>
-    <h1>Contact section</h1>
+    <h2>Email Us</h2>
+    <form action="">
+      <div class="container-form container-style">
+        <p>
+          <label for="fname">First Name</label>
+          <input type="text" id="firstname" name="firstname" placeholder="First Name">        
+        </p>
+        <p>
+          <label for="lname">Last Name</label>
+          <input type="text" id="lastname" name="lastname" placeholder="Last Name">         
+        </p>
+        <p>
+          <label for="street">Street</label>
+          <input type="text" id="street" name="street" placeholder="Street address">
+        </p> 
+        <p>
+          <label for="city">City</label>
+          <input type="text" id="city" name="city" placeholder="City">
+        </p> 
+        <p>
+          <label for="state">State</label>
+          <input type="text" id="state" name="state" placeholder="State">
+        </p>
+        <p> 
+          <label for="zip">Zip Code</label>
+          <input type="text" id="zip" name="zip" placeholder="Zip Code">
+        </p>
+        <p class="full "> 
+          <label for="message">Message</label>
+          <textarea name="message" id="message" rows="10" placeholder="Message"></textarea>
+        </p>
+        <p class="full">
+          <button class="btn-block">Submit</button>
+        </p>
+    </div>
+  </form>
     
+
   </main>
     <!-- FOOTER -->
     <footer>
       <div class="center"> 
-          <h3>&copy;2019 <span class="logo-color">Mosaic Web Group&trade;</span></h3>
-    </div>
+          <h3>&copy;2019 | <span class="logo-color"> Mosaic Web Group&trade;</span></h3>
+      </div>
     </footer>
   </div> <!--end of grid container --> 
 </body>
